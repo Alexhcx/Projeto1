@@ -13,11 +13,6 @@ public class App {
 
     public static String nomeCompleto(String primeiroNome, String segundoNome){
 
-        primeiroNome = primeiroNome.toUpperCase();
-        segundoNome = segundoNome.toUpperCase();
-
-        String nome = primeiroNome + " " + segundoNome; 
-
-        return nome;
+        return primeiroNome.toUpperCase().concat(" ").concat(segundoNome.toUpperCase());
     }
 }
